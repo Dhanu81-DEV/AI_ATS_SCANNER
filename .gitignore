@@ -1,0 +1,36 @@
+# ─── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# ─── FastAPI logs/dbs ──────────────────────────────────────────────
+*.log
+instance/
+*.sqlite3
+
+# ─── React (Create React App) ──────────────────────────────────────
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/build/
+frontend/.cache/
+
+# ─── Docker ────────────────────────────────────────────────────────
+*.pid
+docker-compose.override.yml
+
+# ─── IDEs / OS Junk ────────────────────────────────────────────────
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ─── Git ───────────────────────────────────────────────────────────
+*.swp
+*.swo
+*.orig
