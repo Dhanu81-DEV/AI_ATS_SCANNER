@@ -35,3 +35,4 @@ Thumbs.db
 *.swo
 *.orig
 backend/.env
+backend/.env 
