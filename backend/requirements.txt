@@ -6,4 +6,4 @@ requests
 SQLAlchemy
 python-dotenv
 psycopg2-binary
-google-generativeai
+google-genai
